@@ -1,8 +1,8 @@
 const tokenProvider = new Chatkit.TokenProvider({
-    url: "INSERT YOUR TOKEN PROVIDER"
+    url: "INSERT YOUR PUSHER.JS TOKEN PROVIDER"
 });
 const chatManager = new Chatkit.ChatManager({
-    instanceLocator: "INSERT YOUR INSTANCE LOCATOR",
+    instanceLocator: "INSERT YOUR PUSHER.JS INSTANCE LOCATOR",
     userId: "peppa",
     tokenProvider: tokenProvider
 });
