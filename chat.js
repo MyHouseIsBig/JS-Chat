@@ -1,8 +1,8 @@
 const tokenProvider = new Chatkit.TokenProvider({
-    url: "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/a57c4f2c-88b3-4083-80d9-507fee2a58eb/token"
+    url: "INSERT YOUR TOKEN PROVIDER"
 });
 const chatManager = new Chatkit.ChatManager({
-    instanceLocator: "v1:us1:a57c4f2c-88b3-4083-80d9-507fee2a58eb",
+    instanceLocator: "INSERT YOUR INSTANCE LOCATOR",
     userId: "peppa",
     tokenProvider: tokenProvider
 });
